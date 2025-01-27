@@ -1,0 +1,7 @@
+/* o @ chama uma fonte baixada e a coloca no site */
+@font-face {
+/*famialia da fonte */
+   font-family: 'Yugioh';
+   /*formato da fonte */
+    src: url(../fontes/fonte-yu-gi-oh.otf);
+}

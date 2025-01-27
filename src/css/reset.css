@@ -1,0 +1,16 @@
+/* * é um seletor universal que seleciona todos os elementos da página. */
+*{
+   /*margem*/ 
+   margin: 0;
+   /*preenchimento*/
+    padding: 0;
+    /*tamanho ca caixa.borda/*/
+    box-sizing: border-box;
+}
+
+/* ul é um seletor de tag que seleciona todas as listas não ordenadas da página. */
+
+ul{
+    /*estilo da lista:nenhum*/
+    list-style: none;
+}

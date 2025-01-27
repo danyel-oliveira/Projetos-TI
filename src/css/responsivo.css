@@ -1,0 +1,49 @@
+/*Media Qhery permite que o css seja aplicado em diferentes dispositivos*/
+/*Isso quer dizer se a tela do usuário for menor que 768px de largura ou menos, aplicaremos as regras dentro das chaves*/
+@media (max-width: 768px) {
+    body{
+        background-position: center;
+        padding: 0 15px; /*Adiciona um espaçamento interno de 0 nas laterais e 15px no topo e na base*/
+    }
+    .slider{
+        gap: 10px; /*Adiciona um espaçamento de 10px entre as imagens*/
+    }
+}
+
+
+@media (max-width: 496px) {
+   .lista-personagens{
+       width: 250px; /*Define a largura da lista de personagens para 250px*/
+}
+
+    .imagem-carta{
+        width: 100%
+     /*Define a largura da imagem da carta para 100*/
+    }
+
+    .slider {
+        position: relative; /*Define a posição do slider como absoluta*/
+    }
+    .btn-seta{
+        position: absolute;
+        bottom: -13%;
+    }
+    #btn-avancar{
+        right: 20%;
+    }
+    #bnt-voltar{
+        left: 20%;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        justify-content: start;
+        padding-top: 10px;
+        gap: 10px;
+    }
+}
+
+.cabecalho {
+    font-size: 12px;
+}
