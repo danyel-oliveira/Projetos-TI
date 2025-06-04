@@ -36,12 +36,107 @@ Este é um **Clone interativo do famoso jogo de cartas Yu-Gi-Oh!**, desenvolvido
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura semântica e moderna
-- **CSS3**: Estilização avançada com responsividade
-- **JavaScript**: Interatividade e navegação dinâmica
-- **Design Responsivo**: Compatível com dispositivos móveis
+<div align="center">
+
+```mermaid
+pie title Distribuição de Tecnologias no Projeto
+    "HTML5" : 25
+    "CSS3" : 45
+    "JavaScript" : 25
+    "Assets (Imagens)" : 5
+```
+
+</div>
+
+### Detalhamento Técnico
+
+- **HTML5 (25%)**: Estrutura semântica e moderna
+  - Marcação semântica com tags apropriadas
+  - Acessibilidade com atributos `alt`
+  - Organização hierárquica clara
+
+- **CSS3 (45%)**: Estilização avançada com responsividade
+  - 4 arquivos CSS especializados
+  - Design responsivo e animações
+  - Layouts modernos com Flexbox
+
+- **JavaScript (25%)**: Interatividade e navegação dinâmica
+  - Manipulação do DOM
+  - Sistema de navegação entre cartas
+  - Event listeners para interatividade
+
+- **Assets (5%)**: Recursos visuais
+  - 8 imagens de cartas personalizadas
+  - Ícones de navegação
+  - Recursos gráficos otimizados
+
+## 📊 Análise Técnica do Projeto
+
+<div align="center">
+
+```mermaid
+graph TD
+    A[🌐 Clone Yu-Gi-Oh!] --> B[📄 HTML5]
+    A --> C[🎨 CSS3]
+    A --> D[⚡ JavaScript]
+    A --> E[🖼️ Assets]
+    
+    B --> B1[Estrutura Semântica]
+    B --> B2[7 Cartas Interativas]
+    B --> B3[Acessibilidade]
+    
+    C --> C1[🎨 estilos.css]
+    C --> C2[📱 responsivo.css]
+    C --> C3[🔄 reset.css]
+    C --> C4[✍️ fontes.css]
+    
+    D --> D1[Sistema de Slider]
+    D --> D2[Navegação Dinâmica]
+    D --> D3[Event Listeners]
+    
+    E --> E1[8 Imagens de Cartas]
+    E --> E2[Ícones de Navegação]
+    
+    style A fill:#ff6b6b,stroke:#ff5252,stroke-width:3px,color:#fff
+    style B fill:#e74c3c,stroke:#c0392b,stroke-width:2px,color:#fff
+    style C fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff
+    style D fill:#f1c40f,stroke:#f39c12,stroke-width:2px,color:#333
+    style E fill:#2ecc71,stroke:#27ae60,stroke-width:2px,color:#fff
+```
+
+</div>
 
 ## 📁 Estrutura do Projeto
+
+<div align="center">
+
+```mermaid
+graph LR
+    A[📁 Clone-Yu-Gi-Oh] --> B[📄 index.html]
+    A --> C[📁 src]
+    
+    C --> D[📁 css]
+    C --> E[📁 js]
+    C --> F[📁 imagens]
+    
+    D --> D1[🎨 estilos.css]
+    D --> D2[📱 responsivo.css]
+    D --> D3[🔄 reset.css]
+    D --> D4[✍️ fontes.css]
+    
+    E --> E1[⚡ index.js]
+    
+    F --> F1[🃏 7 Cartas PNG]
+    F --> F2[🏹 seta.png]
+    
+    style A fill:#8e44ad,stroke:#9b59b6,stroke-width:3px,color:#fff
+    style C fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff
+    style D fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff
+    style E fill:#f1c40f,stroke:#f39c12,stroke-width:2px,color:#333
+    style F fill:#2ecc71,stroke:#27ae60,stroke-width:2px,color:#fff
+```
+
+</div>
 
 ```
 Clone-Yu-Gi-Oh/
